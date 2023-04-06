@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveSquare : MonoBehaviour
 {
-    public Rigidbody2D rigidbody2D;
+    public new Rigidbody2D rigidbody2D;
     public float speed;
     public KeyCode upKey;
     public KeyCode downKey;
